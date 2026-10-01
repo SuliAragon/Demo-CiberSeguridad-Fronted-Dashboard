@@ -153,11 +153,3 @@ docs/                    Decisiones, guion de demo, candidatura y capturas
 Demuestra una interfaz funcional y mantenible con lectura de API y un flujo de triage completo. No es un producto de seguridad listo para producción: no tiene autenticación, autorización, escaneo, ingestión de telemetría, auditoría de cambios ni persistencia de servidor. Las recomendaciones son texto de demostración y no ejecutan acciones sobre sistemas.
 
 El siguiente paso sería sustituir los fixtures por un backend autenticado, guardar las investigaciones y su historial de forma transaccional, validar también las respuestas de servicios externos y calcular riesgo a partir de evidencia real.
-
-## Presentación y autoría
-
-Consulta el [guion de demo y entrevista](docs/DEMO.md), las [decisiones de diseño](docs/DECISIONES.md) y los [resultados de validación](docs/VALIDACION.md).
-
-Proyecto creado con asistencia de **Codex**. Para presentarlo, especifica qué partes revisaste, comprendiste, modificaste y validaste personalmente. No atribuyas a tu experiencia profesional los datos ni los casos ficticios de esta demo.
-
-Referencias técnicas: [App Router y Route Handlers de Next.js](https://nextjs.org/docs/app/api-reference/file-conventions/route), [integración de Tailwind CSS con Next.js](https://tailwindcss.com/docs/installation/framework-guides/nextjs).
